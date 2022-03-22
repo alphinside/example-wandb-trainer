@@ -8,6 +8,7 @@ authors = ["Alvin Prayuda <alvinprayuda@gmail.com>"]
 python = "^3.8"
 wandb = "^0.12.11"
 example-dvc-dataset = {git = "https://github.com/alphinside/example-dvc-dataset.git", rev = "main"}
+typer = "^0.4.0"
 
 [tool.poetry.dev-dependencies]
 
