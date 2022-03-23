@@ -1,6 +1,7 @@
 # example-wandb-trainer
 
 This repository is an example of training repository which integrate with WandB for login.
+This repo use dataset which is [iris.csv](https://drive.google.com/file/d/1t1nQM_ouCE7OuqqwamX8dJHskdj9IKDP/view?usp=sharing) also being used from this repository [https://github.com/alphinside/example-dvc-dataset](https://github.com/alphinside/example-dvc-dataset)
 Please install [poetry](https://python-poetry.org/docs/) to install all the dependencies
 
 How to use :
@@ -17,7 +18,7 @@ poetry install
 poetry run wandb login
 ```
 
-3. Run the script
+3. Run the script, notes that the `--dataset-path` default is refer to another repository dir mentioned above in writer local system
 
 ```shell
 poetry run python example_wandb_trainer/main.py --help
