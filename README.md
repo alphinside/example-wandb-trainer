@@ -44,3 +44,5 @@ wandb: Synced svc: https://wandb.ai/alvin-prayuda/experiment-tracking-example/ru
 wandb: Synced 5 W&B file(s), 5 media file(s), 5 artifact file(s) and 1 other file(s)
 wandb: Find logs at: ./wandb/run-20220322_165209-173aitq9/logs
 ```
+
+4. The dumped model will be available at `./tmp` directory on your local working directory
